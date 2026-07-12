@@ -1,0 +1,16 @@
+ 
+# int
+# string
+# float
+
+n1 = 6
+n2 = 2
+n3 = n1 ** n2
+print(n1, n2, n3, "hello")
+print(n3)
+
+n1= 4
+
+n3 = n1 ** n2
+
+print(n3)

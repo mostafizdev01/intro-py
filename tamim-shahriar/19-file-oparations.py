@@ -28,3 +28,9 @@ lines = ["Apple\n", "Banana\n", "Coconut\n"]
 fp.writelines(lines)
 
 fp.close()
+
+
+# file oparation with context-managers
+with open("myfile.text", "r") as fp:
+    content = fp.readlines()
+    print(content)
